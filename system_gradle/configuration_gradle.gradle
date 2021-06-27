@@ -1,0 +1,12 @@
+project.plugins.apply("com.android.application")
+
+ext {
+    androidVersion = [
+            compileSdkVersion: 30,
+            buildToolsVersion  : "30.0.3",
+            minSdkVersion      : 15,
+            targetSdkVersion   : 30,
+            versionCode        : 1,
+            versionName        : "1.0"
+    ]
+}
